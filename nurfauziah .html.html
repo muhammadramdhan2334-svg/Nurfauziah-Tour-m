@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nurfauziah Tour & Travel — Umroh & Haji Plus</title>
+  <meta name="description" content="Nurfauziah Tour & Travel - Paket Umroh Reguler, VIP, dan Plus Turki. Hubungi via WhatsApp untuk info." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    :root{ --gold: #d6a94b; --deep-blue:#071133; }
+    body { background: linear-gradient(180deg,#020617 0%, #071133 60%); }
+    .fade-up { animation: fadeUp .9s cubic-bezier(.2,.9,.2,1) both; }
+    @keyframes fadeUp { from { opacity:0; transform:translateY(20px);} to { opacity:1; transform:translateY(0);} }
+    .zoom-hover { transition: transform 0.6s ease, box-shadow 0.6s ease; }
+    .zoom-hover:hover { transform: scale(1.05); box-shadow: 0 10px 25px rgba(214,169,75,0.4); }
+    .card-shadow { box-shadow: 0 10px 30px rgba(2,6,23,0.5); }
+    .gold-border { border: 1px solid rgba(214,169,75,0.12); }
+    .wa-float { position:fixed; right:18px; bottom:18px; z-index:60; background:linear-gradient(180deg,#25D366,#128C7E); color:white; padding:12px 14px; border-radius:999px; display:flex; gap:10px; align-items:center; font-weight:700; box-shadow:0 8px 30px rgba(2,6,23,0.4); }
+  </style>
+</head>
+<body class="antialiased text-slate-100">
+
+  <a class="wa-float" href="https://wa.me/6281291523049" target="_blank">Hubungi via WhatsApp</a>
+
+  <header class="py-4 sticky top-0 z-40 bg-slate-900/70 backdrop-blur-md fade-up">
+    <div class="max-w-6xl mx-auto px-6 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <img src="A_logo_for_Nurfauziah_Tour_&_Travel_is_set_against.png" alt="Logo Nurfauziah Tour & Travel" class="h-[70px] w-auto rounded-md">
+        <div class="text-lg font-semibold text-yellow-300">Nurfauziah Tour & Travel</div>
+      </div>
+      <nav class="hidden md:flex items-center gap-6 text-sm text-slate-200">
+        <a href="#paket" class="hover:text-yellow-300 transition">Paket</a>
+        <a href="#fitur" class="hover:text-yellow-300 transition">Fasilitas</a>
+        <a href="#galeri" class="hover:text-yellow-300 transition">Galeri</a>
+        <a href="#testi" class="hover:text-yellow-300 transition">Testimoni</a>
+        <a href="#kontak" class="bg-yellow-400 text-slate-900 px-4 py-2 rounded-lg hover:scale-105 transition">Daftar</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="relative overflow-hidden fade-up" aria-label="Hero">
+    <img src="images 2. jpeg.jpeg" alt="Ka'bah dan Menara Jam Makkah" class="w-full h-[440px] object-cover brightness-75 animate-fade" />
+    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900/80"></div>
+    <div class="max-w-6xl mx-auto px-6 py-20 relative z-10">
+      <h1 class="text-4xl md:text-5xl font-extrabold leading-tight text-yellow-300 animate-bounce">Perjalanan Ibadah yang Tenang & Mewah</h1>
+      <p class="text-slate-200 mt-4 max-w-xl fade-up">Nikmati pengalaman Umroh & Haji Plus dengan layanan premium, pendamping bersertifikat, dan fasilitas yang mendukung kenyamanan jamaah.</p>
+      <a href="#kontak" class="mt-6 inline-block px-5 py-3 bg-yellow-400 text-slate-900 font-semibold rounded-lg hover:scale-110 transition">Daftar Sekarang</a>
+    </div>
+  </section>
+
+  <section id="paket" class="max-w-6xl mx-auto px-6 py-12 fade-up">
+    <h2 class="text-3xl font-bold text-white mb-6">Paket Pilihan</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <article class="bg-slate-800/60 p-6 rounded-2xl gold-border card-shadow zoom-hover">
+        <img src="paket-reguler.jpg" class="w-full h-40 object-cover rounded-lg mb-4" alt="jamaah" />
+        <h3 class="text-xl font-semibold text-white">Umroh Reguler</h3>
+        <p class="text-slate-300 text-sm mt-2">9 Hari — Hotel bintang 3–4 — Pendamping berpengalaman.</p>
+        <div class="text-yellow-300 font-bold mt-3">Rp 22.000.000</div>
+      </article>
+      <article class="bg-slate-800/60 p-6 rounded-2xl gold-border card-shadow zoom-hover">
+        <img src="paket-vip.jpg" class="w-full h-40 object-cover rounded-lg mb-4" alt="hotel mewah" />
+        <h3 class="text-xl font-semibold text-white">Umroh VIP</h3>
+        <p class="text-slate-300 text-sm mt-2">9 Hari — Hotel bintang 5 — Layanan eksklusif.</p>
+        <div class="text-yellow-300 font-bold mt-3">Rp 45.000.000</div>
+      </article>
+      <article class="bg-slate-800/60 p-6 rounded-2xl gold-border card-shadow zoom-hover">
+        <img src="paket-turki.jpg" class="w-full h-40 object-cover rounded-lg mb-4" alt="turki" />
+        <h3 class="text-xl font-semibold text-white">Umroh Plus Turki</h3>
+        <p class="text-slate-300 text-sm mt-2">12 Hari — Arab Saudi + Turki.</p>
+        <div class="text-yellow-300 font-bold mt-3">Rp 55.000.000</div>
+      </article>
+    </div>
+  </section>
+
+  <section id="fitur" class="max-w-6xl mx-auto px-6 py-12 fade-up">
+    <h3 class="text-2xl font-bold text-white mb-6">Kenapa Memilih Kami</h3>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="p-6 bg-slate-800/50 rounded-2xl gold-border card-shadow zoom-hover">
+        <h4 class="font-semibold text-white">Pendamping Bersertifikat</h4>
+        <p class="text-slate-300 text-sm mt-2">Tour leader yang berpengalaman menangani jamaah dari berbagai usia.</p>
+      </div>
+      <div class="p-6 bg-slate-800/50 rounded-2xl gold-border card-shadow zoom-hover">
+        <h4 class="font-semibold text-white">Fasilitas Premium</h4>
+        <p class="text-slate-300 text-sm mt-2">Hotel pilihan & layanan eksklusif untuk kenyamanan ibadah.</p>
+      </div>
+      <div class="p-6 bg-slate-800/50 rounded-2xl gold-border card-shadow zoom-hover">
+        <h4 class="font-semibold text-white">Dukungan 24/7</h4>
+        <p class="text-slate-300 text-sm mt-2">Tim support selama perjalanan dan di tanah suci.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testi" class="max-w-6xl mx-auto px-6 py-12 fade-up">
+    <h3 class="text-2xl font-bold text-white mb-6">Testimoni Jamaah</h3>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="p-6 bg-slate-800/50 rounded-2xl gold-border card-shadow zoom-hover">
+        <p class="text-slate-300">"Perjalanan nyaman, pembimbing sabar, pengalaman ibadah yang tenang."</p>
+        <p class="mt-4 font-semibold text-white">— Siti, Bandung</p>
+      </div>
+      <div class="p-6 bg-slate-800/50 rounded-2xl gold-border card-shadow zoom-hover">
+        <p class="text-slate-300">"Fasilitas memadai untuk jamaah lansia, sangat membantu."</p>
+        <p class="mt-4 font-semibold text-white">— Ahmad, Bogor</p>
+      </div>
+      <div class="p-6 bg-slate-800/50 rounded-2xl gold-border card-shadow zoom-hover">
+        <p class="text-slate-300">"Itinerary rapi dan informatif, sangat recommended."</p>
+        <p class="mt-4 font-semibold text-white">— Lina, Jakarta</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontak" class="max-w-4xl mx-auto px-6 py-12 fade-up">
+    <div class="bg-slate-800/60 p-8 rounded-2xl gold-border card-shadow zoom-hover">
+      <h3 class="text-2xl font-bold text-white">Daftar Sekarang</h3>
+      <p class="text-slate-300 mt-2">Isi formulir atau langsung hubungi admin via WhatsApp untuk proses cepat.</p>
+      <form id="leadForm" class="mt-6 grid md:grid-cols-2 gap-4">
+        <input type="text" id="inputNama" placeholder="Nama" class="w-full p-3 rounded-lg text-slate-900" required>
+        <input type="text" id="inputWa" placeholder="Nomor WhatsApp" class="w-full p-3 rounded-lg text-slate-900" required>
+        <select id="selectPaket" class="w-full p-3 rounded-lg text-slate-900">
+          <option value="Pilih Paket">Pilih Paket</option>
+          <option value="Umroh Reguler">Umroh Reguler</option>
+          <option value="Umroh VIP">Umroh VIP</option>
+          <option value="Umroh Plus Turki">Umroh Plus Turki</option>
+        </select>
+        <input type="text" id="inputKota" placeholder="Kota" class="w-full p-3 rounded-lg text-slate-900">
+        <textarea rows="3" id="inputPesan" placeholder="Pesan" class="w-full p-3 rounded-lg text-slate-900 md:col-span-2"></textarea>
+        
+        <button type="button" onclick="sendWhatsapp()" class="bg-yellow-400 text-slate-900 px-5 py-3 rounded-lg font-semibold md:col-span-2 hover:scale-105 transition">Kirim ke WhatsApp</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="py-8 text-center text-slate-400 fade-up">
+    <p>© 2025 Nurfauziah Tour & Travel. Semua hak dilindungi.</p>
+  </footer>
+
+  <script>
+    function sendWhatsapp() {
+      const targetNumber = "6281291523049"; 
+      const nama = document.getElementById('inputNama').value;
+      const wa = document.getElementById('inputWa').value;
+      const paket = document.getElementById('selectPaket').value;
+      const kota = document.getElementById('inputKota').value;
+      const pesan = document.getElementById('inputPesan').value;
+
+      if (!nama || !wa) {
+        alert("Mohon isi Nama dan Nomor WhatsApp Anda.");
+        return;
+      }
+
+      const waMessage = 
+        `*Permintaan Info Paket Umroh/Haji*
+        
+*Nama:* ${nama}
+*Nomor WA:* ${wa}
+*Paket yang Diminati:* ${paket}
+*Kota:* ${kota || '(Tidak diisi)'}
+*Pesan Tambahan:* ${pesan || '(Tidak ada)'}
+
+Mohon bantuan untuk informasi selanjutnya. Terima kasih.`;
+
+      const encodedMessage = encodeURIComponent(waMessage);
+      const whatsappUrl = `https://wa.me/${targetNumber}?text=${encodedMessage}`;
+      window.open(whatsappUrl, '_blank');
+    }
+  </script>
+</body>
+</html>
